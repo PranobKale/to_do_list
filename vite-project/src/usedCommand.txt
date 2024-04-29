@@ -1,0 +1,3 @@
+conmmands used.
+
+npm create vite@latest

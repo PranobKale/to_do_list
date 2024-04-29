@@ -1,0 +1,61 @@
+.todo{
+
+    width: 600px;
+    min-height: 732px;
+    border-radius: 20px;
+    background: white;
+    margin: auto;
+    margin-top: 174px;
+    display: flex;
+    flex-direction: column;
+    padding: 0px 44px;
+    padding-bottom: 30px;
+    margin-bottom: 100px;
+}
+
+.todo-header{
+
+   margin-top: 84px;
+   color: grey;
+   font-size: 36px;
+   font-weight: 600;
+   line-height: 34px;
+}
+
+.todo-add{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 45px;
+}
+
+.todo-input{
+    border-radius: 50px;
+    background: #edeef0;
+    border: none;
+    outline: none;
+    width:576px;
+    height: 80px;
+    padding-left: 35px;
+    font-size: 20px;
+}
+
+.todo-add-btn {
+    display: inline-block;
+    padding: 20px; /* Adjust padding to match input height */
+    background-color: #007bff; /* Blue color, you can change it to your preferred color */
+    color: #fff; /* White text color */
+    border: none;
+    border-radius: 50px; /* Same border radius as the input */
+    cursor: pointer;
+    font-size: 20px; /* Same font size as the input */
+    transition: background-color 0.3s ease;
+}
+
+.todo-add-btn:hover {
+    background-color: #0056b3; /* Darker shade of blue on hover */
+}
+
+.todo-add-btn:active {
+    transform: translateY(1px); /* Add a slight downward movement when button is clicked */
+}
