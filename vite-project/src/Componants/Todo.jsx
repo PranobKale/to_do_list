@@ -40,11 +40,8 @@ const Todo = () => {
         <div className="todo-list">
         {todo.map((item, index) => {
             return <TodoItems key={index} setTodo={setTodo} no={item.no}  display={item.display} text={item.text} />
-}
-        )}
+        })}
         </div>
-
-
     </div>
   )
 }
